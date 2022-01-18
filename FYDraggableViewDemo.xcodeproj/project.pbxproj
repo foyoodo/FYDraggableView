@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6F5433C2796A3C5008D33BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F5433B2796A3C5008D33BC /* AppDelegate.m */; };
+		C6F5433F2796A3C5008D33BC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F5433E2796A3C5008D33BC /* SceneDelegate.m */; };
+		C6F543422796A3C5008D33BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F543412796A3C5008D33BC /* ViewController.m */; };
+		C6F543452796A3C5008D33BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6F543432796A3C5008D33BC /* Main.storyboard */; };
+		C6F543472796A3C7008D33BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6F543462796A3C7008D33BC /* Assets.xcassets */; };
+		C6F5434A2796A3C7008D33BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6F543482796A3C7008D33BC /* LaunchScreen.storyboard */; };
+		C6F5434D2796A3C7008D33BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F5434C2796A3C7008D33BC /* main.m */; };
+		C6F543582796A5ED008D33BC /* NSObject+FYDraggableSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F543562796A5ED008D33BC /* NSObject+FYDraggableSupport.m */; };
+		C6F543592796A5ED008D33BC /* UIView+FYDraggable.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F543572796A5ED008D33BC /* UIView+FYDraggable.m */; };
+		C6F5435C2796A682008D33BC /* QQKFloatingButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F5435A2796A682008D33BC /* QQKFloatingButton.m */; };
+		F14BCCE002F4867EFBF56E2B /* libPods-FYDraggableViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C80FD429DA14589E013C602 /* libPods-FYDraggableViewDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C80FD429DA14589E013C602 /* libPods-FYDraggableViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FYDraggableViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70342D137DA5601EDEE9FE97 /* Pods-FYDraggableViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYDraggableViewDemo.release.xcconfig"; path = "Target Support Files/Pods-FYDraggableViewDemo/Pods-FYDraggableViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C286A11D63FB3D6C35527104 /* Pods-FYDraggableViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYDraggableViewDemo.debug.xcconfig"; path = "Target Support Files/Pods-FYDraggableViewDemo/Pods-FYDraggableViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C6F543372796A3C5008D33BC /* FYDraggableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYDraggableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F5433A2796A3C5008D33BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C6F5433B2796A3C5008D33BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C6F5433D2796A3C5008D33BC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		C6F5433E2796A3C5008D33BC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		C6F543402796A3C5008D33BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C6F543412796A3C5008D33BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C6F543442796A3C5008D33BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6F543462796A3C7008D33BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6F543492796A3C7008D33BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6F5434B2796A3C7008D33BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6F5434C2796A3C7008D33BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6F543542796A5ED008D33BC /* NSObject+FYDraggableSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FYDraggableSupport.h"; sourceTree = "<group>"; };
+		C6F543552796A5ED008D33BC /* UIView+FYDraggable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FYDraggable.h"; sourceTree = "<group>"; };
+		C6F543562796A5ED008D33BC /* NSObject+FYDraggableSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FYDraggableSupport.m"; sourceTree = "<group>"; };
+		C6F543572796A5ED008D33BC /* UIView+FYDraggable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FYDraggable.m"; sourceTree = "<group>"; };
+		C6F5435A2796A682008D33BC /* QQKFloatingButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQKFloatingButton.m; sourceTree = "<group>"; };
+		C6F5435B2796A682008D33BC /* QQKFloatingButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQKFloatingButton.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6F543342796A3C5008D33BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F14BCCE002F4867EFBF56E2B /* libPods-FYDraggableViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4A16BE23E7F18DC2D5E4A9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C80FD429DA14589E013C602 /* libPods-FYDraggableViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6F5432E2796A3C5008D33BC = {
+			isa = PBXGroup;
+			children = (
+				C6F543392796A3C5008D33BC /* FYDraggableViewDemo */,
+				C6F543382796A3C5008D33BC /* Products */,
+				DB1B10ECC4EDC22E4BEF1380 /* Pods */,
+				A4A16BE23E7F18DC2D5E4A9C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C6F543382796A3C5008D33BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6F543372796A3C5008D33BC /* FYDraggableViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6F543392796A3C5008D33BC /* FYDraggableViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C6F5435D2796A727008D33BC /* FloatingComponents */,
+				C6F543532796A55F008D33BC /* FYDraggableView */,
+				C6F5433A2796A3C5008D33BC /* AppDelegate.h */,
+				C6F5433B2796A3C5008D33BC /* AppDelegate.m */,
+				C6F5433D2796A3C5008D33BC /* SceneDelegate.h */,
+				C6F5433E2796A3C5008D33BC /* SceneDelegate.m */,
+				C6F543402796A3C5008D33BC /* ViewController.h */,
+				C6F543412796A3C5008D33BC /* ViewController.m */,
+				C6F543432796A3C5008D33BC /* Main.storyboard */,
+				C6F543462796A3C7008D33BC /* Assets.xcassets */,
+				C6F543482796A3C7008D33BC /* LaunchScreen.storyboard */,
+				C6F5434B2796A3C7008D33BC /* Info.plist */,
+				C6F5434C2796A3C7008D33BC /* main.m */,
+			);
+			path = FYDraggableViewDemo;
+			sourceTree = "<group>";
+		};
+		C6F543532796A55F008D33BC /* FYDraggableView */ = {
+			isa = PBXGroup;
+			children = (
+				C6F543542796A5ED008D33BC /* NSObject+FYDraggableSupport.h */,
+				C6F543562796A5ED008D33BC /* NSObject+FYDraggableSupport.m */,
+				C6F543552796A5ED008D33BC /* UIView+FYDraggable.h */,
+				C6F543572796A5ED008D33BC /* UIView+FYDraggable.m */,
+			);
+			path = FYDraggableView;
+			sourceTree = "<group>";
+		};
+		C6F5435D2796A727008D33BC /* FloatingComponents */ = {
+			isa = PBXGroup;
+			children = (
+				C6F5435B2796A682008D33BC /* QQKFloatingButton.h */,
+				C6F5435A2796A682008D33BC /* QQKFloatingButton.m */,
+			);
+			path = FloatingComponents;
+			sourceTree = "<group>";
+		};
+		DB1B10ECC4EDC22E4BEF1380 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C286A11D63FB3D6C35527104 /* Pods-FYDraggableViewDemo.debug.xcconfig */,
+				70342D137DA5601EDEE9FE97 /* Pods-FYDraggableViewDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6F543362796A3C5008D33BC /* FYDraggableViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6F543502796A3C7008D33BC /* Build configuration list for PBXNativeTarget "FYDraggableViewDemo" */;
+			buildPhases = (
+				62F24A35C179037807654728 /* [CP] Check Pods Manifest.lock */,
+				C6F543332796A3C5008D33BC /* Sources */,
+				C6F543342796A3C5008D33BC /* Frameworks */,
+				C6F543352796A3C5008D33BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FYDraggableViewDemo;
+			productName = FYDraggableViewDemo;
+			productReference = C6F543372796A3C5008D33BC /* FYDraggableViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6F5432F2796A3C5008D33BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C6F543362796A3C5008D33BC = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C6F543322796A3C5008D33BC /* Build configuration list for PBXProject "FYDraggableViewDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6F5432E2796A3C5008D33BC;
+			productRefGroup = C6F543382796A3C5008D33BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6F543362796A3C5008D33BC /* FYDraggableViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6F543352796A3C5008D33BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6F5434A2796A3C7008D33BC /* LaunchScreen.storyboard in Resources */,
+				C6F543472796A3C7008D33BC /* Assets.xcassets in Resources */,
+				C6F543452796A3C5008D33BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		62F24A35C179037807654728 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FYDraggableViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6F543332796A3C5008D33BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6F543422796A3C5008D33BC /* ViewController.m in Sources */,
+				C6F543592796A5ED008D33BC /* UIView+FYDraggable.m in Sources */,
+				C6F5433C2796A3C5008D33BC /* AppDelegate.m in Sources */,
+				C6F5434D2796A3C7008D33BC /* main.m in Sources */,
+				C6F5433F2796A3C5008D33BC /* SceneDelegate.m in Sources */,
+				C6F543582796A5ED008D33BC /* NSObject+FYDraggableSupport.m in Sources */,
+				C6F5435C2796A682008D33BC /* QQKFloatingButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C6F543432796A3C5008D33BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6F543442796A3C5008D33BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6F543482796A3C7008D33BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6F543492796A3C7008D33BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6F5434E2796A3C7008D33BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C6F5434F2796A3C7008D33BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6F543512796A3C7008D33BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C286A11D63FB3D6C35527104 /* Pods-FYDraggableViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42LU364YZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FYDraggableViewDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.foyoodo.FYDraggableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6F543522796A3C7008D33BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70342D137DA5601EDEE9FE97 /* Pods-FYDraggableViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42LU364YZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FYDraggableViewDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.foyoodo.FYDraggableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6F543322796A3C5008D33BC /* Build configuration list for PBXProject "FYDraggableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6F5434E2796A3C7008D33BC /* Debug */,
+				C6F5434F2796A3C7008D33BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6F543502796A3C7008D33BC /* Build configuration list for PBXNativeTarget "FYDraggableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6F543512796A3C7008D33BC /* Debug */,
+				C6F543522796A3C7008D33BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6F5432F2796A3C5008D33BC /* Project object */;
+}
