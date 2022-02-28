@@ -61,3 +61,9 @@ self.fy_draggableViewDelegate = self;
 - (void)fy_draggableViewWillBeginDecelerating:(UIView *)view;
 - (void)fy_draggableViewDidEndDecelerating:(UIView *)view;
 ```
+
+## Demo
+
+<div align="center">
+	<img src="./assets/demo.gif" alt="demo" width="300">
+</div>
